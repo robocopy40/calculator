@@ -1,0 +1,24 @@
+{
+  "name": "Antonio Miguel",
+  "homepage": "https://github.com/robocopy40/calculator",
+  "authors": [
+    "robocopy40"
+  ],
+  "description": "primer git",
+  "main": "index.html",
+  "keywords": [
+    "calculator"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
