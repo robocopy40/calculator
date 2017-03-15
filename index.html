@@ -1,81 +1,84 @@
 <html>
 <head>
 <link rel="stylesheet" href="/home/usuario/calculator/bower_components/bootstrap/dist/css/bootstrap.min.css">
+
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<title> calculator </title>
 </head>
 <body>
-<div class="container">
+<div class="container fluid">
 
 <div class= "row">
 <div class = "col-xs-12">
-<div id="resultado" style="background:#FF2;color:black">Resultado
+<div id="resultado" style="background:#A4A4A4;color:#000000;height:40px;line-height:40px;text-align:right;margin:10px 0px;border-radius:10px;">Resultado
 </div>
 </div>
 </div>
 
 <div class= "row">
 <div class="col-xs-4">
-<input type="button" class="btn btn-block" value="7">
+<input type="button" class="botonnum btn btn-info btn-block" value="7">
 </div>
 
 <div class="col-xs-4">
-<input type="button" class="btn btn-block" value="8">
+<input type="button" class="botonnum btn btn-info btn-block" value="8">
 </div>
 
 <div class="col-xs-4">
-<input type="button" class="btn btn-block" value="9">
-</div>
-</div>
-
-<div class= "row">
-<div class="col-xs-4">
-<input type="button" class="btn btn-block" value="4">
-</div>
-<div class="col-xs-4">
-<input type="button" class="btn btn-block" value="5">
-</div>
-<div class="col-xs-4">
-<input type="button" class="btn btn-block" value="6">
+<input type="button" class="botonnum btn btn-info btn-block" value="9">
 </div>
 </div>
 
 <div class= "row">
 <div class="col-xs-4">
-<input type="button" class="btn btn-block" value="1">
+<input type="button" class="botonnum btn btn-info btn-block" value="4">
 </div>
-
 <div class="col-xs-4">
-<input type="button" class="btn btn-block" value="2">
+<input type="button" class="botonnum btn btn-info btn-block" value="5">
 </div>
-
 <div class="col-xs-4">
-<input type="button" class="btn btn-block" value="3">
+<input type="button" class="botonnum btn btn-info btn-block" value="6">
 </div>
 </div>
 
 <div class= "row">
 <div class="col-xs-4">
-<input type="button" class="btn btn-block" value="0">
+<input type="button" class="botonnum btn btn-info btn-block" value="1">
 </div>
 
 <div class="col-xs-4">
-<input type="button" class="btn btn-block" value="C">
+<input type="button" class="botonnum btn btn-info btn-block" value="2">
 </div>
 
 <div class="col-xs-4">
-<input type="button" class="btn btn-block" value="+">
+<input type="button" class="botonnum btn btn-info btn-block" value="3">
 </div>
 </div>
 
 <div class= "row">
 <div class="col-xs-4">
-<input type="button" class="btn btn-block" value="-">
+<input type="button" class="botonnum btn btn-info btn-block" value="0">
 </div>
 
 <div class="col-xs-4">
-<input type="button" class="btn btn-block" value="=">
+<input type="button" id="botonc" class="botonc btn-info btn btn-block" value="C">
 </div>
+
+<div class="col-xs-4">
+<input type="button" class="botonop btn btn-info btn-block" value="+">
 </div>
 </div>
 
+<div class= "row">
+<div class="col-xs-4">
+<input type="button" class="botonop btn btn-info btn-block" value="-">
+</div>
+
+<div class="col-xs-4">
+<input type="button" class="botonigual btn btn-info btn-block" value="=">
+</div>
+</div>
+</div>
+<script src="calculadora.js"></script>
 </body>
 </html>
